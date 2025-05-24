@@ -7,7 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <nav>
+        <ul class="navbar">
+            <li><a href="#top">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <header id="top">
         <h1>Hello, I'm Ayanda Mlotshwa</h1>
         <p>welcome to my portfolio website! Glad to see you here.</p>
     </header>
@@ -17,20 +25,46 @@
         <p>I'm a passionate web developer with a strong focus on front-end development.</p>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
         <h2>Projects</h2>
-        <p>Check out my latest projects and contributions.</p>
-        <ul>
-            <li>Project 1</li>
-            <li>Project 2</li>
-            <li>Project 3</li>
-            <li>Project 4</li>
-        </ul>
+        <div class="project-list">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Description of project 1.</p>
+                <a href="">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Description of project 2.</p>
+                <a href="">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Description of project 3.</p>
+                <a href="">View Project</a>
+            </div>
+        </div>    
     </section>
    
 
     <footer>
         <p>&copy; 2025 Ayanda Mlotshwa. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/" 
+            target="_blank">Twitter</a>
+
+            <a href="https://www.LinkedIn.com/"
+             target="_blank">LinkedIn</a>
+
+            <a href="https://www.github.com/" 
+             target="_blank">GitHub</a>
+
+            <a href="ayanda.mlotshwa@gmail.com" 
+             target="_blank">Email</a>
+        </div>
+        
     </footer>
 </body>
 </html>
